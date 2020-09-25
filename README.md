@@ -266,6 +266,21 @@ void *esp_native_code_commit(void *buf, size_t len, void *reloc) {
 }
 ```
 
+## STEP 5: Create main.py Module
+#### SOURCE 
+```python
+try:
+    print('Entry Point...')
+except KeyboardInterrupt:
+    pass
+```
+
+## STEP 6: Flash Firmware
+#### Instructions 
+```bash
+https://github.com/micropython/micropython/tree/master/ports/esp32
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
