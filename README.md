@@ -222,8 +222,6 @@ soft_reset:
 
     gc_sweep_all();
 
-    mp_hal_stdout_tx_str("MPY: soft reboot\r\n");
-
     // deinitialise peripherals
     machine_pins_deinit();
     usocket_events_deinit();
