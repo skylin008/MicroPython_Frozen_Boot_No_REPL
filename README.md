@@ -269,7 +269,7 @@ void *esp_native_code_commit(void *buf, size_t len, void *reloc) {
 ```python
 while True:
     try:
-        print('Entry Point')
+        print('Entry Point Loop')
         input('Press ENTER...')
     except KeyboardInterrupt:
         pass
