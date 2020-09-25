@@ -275,6 +275,7 @@ while True:
     except KeyboardInterrupt:
         pass
 ```
+***PLACE FILE IN THE SAME FOLDER AS _boot.py***
 
 ## STEP 6: Flash Firmware
 #### Instructions 
