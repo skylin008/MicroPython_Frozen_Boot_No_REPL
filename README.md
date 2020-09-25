@@ -5,7 +5,7 @@ In this tutorial I will use the esp32 port of MicroPython.
 
 ## STEP 1: Clone MicroPython Repo
 ```bash
-https://github.com/micropython/micropython.git
+git clone https://github.com/micropython/micropython.git
 ```
 
 ## STEP 2: Modify inisetup.py Module
