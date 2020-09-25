@@ -267,10 +267,11 @@ void *esp_native_code_commit(void *buf, size_t len, void *reloc) {
 ## STEP 5: Create main.py Module
 #### SOURCE 
 ```python
-try:
-    print('Entry Point...')
-except KeyboardInterrupt:
-    pass
+while True:
+    try:
+        print('Entry Point...')
+    except KeyboardInterrupt:
+        pass
 ```
 
 ## STEP 6: Flash Firmware
