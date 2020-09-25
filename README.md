@@ -1,4 +1,4 @@
-# MicroPython_Frozen_Boot_No_REPL
+# MicroPython: Frozen Boot w/ No REPL
 This repo provides a brief tutorial on how to set up MicroPython to boot and run a single or series of modules that are frozen into the firmware in addition to disabling the REPL.  This can be useful if you have a project that you do not want to allow a user to mod a boot.py or main.py on the file system and have the entire application frozen into the firmware in addition to removing the REPL to keep a user from examining the internals of the firmware.  This is an advanced usage of MicroPython and this repo is designed to help a developer with a workflow to provide some basic security if your application calls for such a feature.  This simply provides a first step to security as it is the sole responsibility of the developer to take the next steps to build on this design specifically for their IoT application.
 
 In this tutorial I will use the esp32 port of MicroPython.
